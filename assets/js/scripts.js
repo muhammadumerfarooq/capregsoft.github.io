@@ -13,8 +13,9 @@ jQuery(document).ready(function() {
     /*
         Countdown initializer
     */
-    var now = new Date();
-    var countTo = 5 * 24 * 60 * 60 * 1000 + now.valueOf();
+    var now = new Date(2020, 8, 27, 16, 05, 30, 0);
+
+    var countTo = now.valueOf();
     $('.timer').countdown(countTo, function(event) {
         $(this).find('.days').text(event.offset.totalDays);
         $(this).find('.hours').text(event.offset.hours);
