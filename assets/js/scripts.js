@@ -13,7 +13,7 @@ jQuery(document).ready(function() {
     /*
         Countdown initializer
     */
-    var now = new Date(2020, 8, 27, 16, 05, 30, 0);
+    var now = new Date(2020, 8, 28, 16, 05, 30, 0);
 
     var countTo = now.valueOf();
     $('.timer').countdown(countTo, function(event) {
