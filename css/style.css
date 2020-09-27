@@ -572,11 +572,37 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------------------------------------------------
 Inner Banner
 ---------------------------------------------------*/
+<<<<<<< HEAD
+#innerBanner{
+	padding: 138px 0 64px;
+	text-align:center;
+	background: #278bf2;
+}
+#innerBanner h2{
+	color:#fff;
+	text-align:center;
+	font-weight:normal;
+	font-size:18px;
+	margin:0px;
+}
+#innerBanner h2 span{
+	color: #00e5a1;
+	font-weight:bold;
+	font-size:38px;
+	text-align:center;
+}
+.svgImg{
+	
+}
+.svgImg img{
+	width:120px;
+=======
 
 #innerBanner {
     padding: 138px 0 64px;
     text-align: center;
     background: #278bf2;
+>>>>>>> 968b4452aa5d04f3f9fd0b94feea689ac3de6ba4
 }
 
 #innerBanner h2 {
@@ -800,10 +826,16 @@ Inner Banner
 
 /* Clients Section
 --------------------------------*/
+<<<<<<< HEAD
+#clients {
+  padding: 60px 0;
+  background: #07cc91;
+=======
 
 #clients {
     padding: 60px 0;
     background: #07cc91;
+>>>>>>> 968b4452aa5d04f3f9fd0b94feea689ac3de6ba4
 }
 
 #clients img {
@@ -1025,9 +1057,15 @@ p.help-block li {
 --------------------------------*/
 
 #call-to-action {
+<<<<<<< HEAD
+  background: #0b79e7;
+  background-size: cover;
+  padding: 40px 0;
+=======
     background: #278bf2;
     background-size: cover;
     padding: 40px 0;
+>>>>>>> 968b4452aa5d04f3f9fd0b94feea689ac3de6ba4
 }
 
 #call-to-action .cta-title {
@@ -1041,6 +1079,39 @@ p.help-block li {
 }
 
 @media (min-width: 769px) {
+<<<<<<< HEAD
+  #call-to-action .cta-btn-container {
+    display: block;
+    /* align-items: center; */
+    justify-content: flex;
+  }
+}
+
+#call-to-action .cta-btn {
+  /* font-family: "Montserrat", sans-serif; */
+  /* font-weight: 700; */
+  /* font-size: 16px; */
+  /* letter-spacing: 1px; */
+  display: inline-block;
+  /* padding: 8px 26px; */
+  /* border-radius: 3px; */
+  transition: 0.5s;
+  /* margin: 10px; */
+  border: 3px solid #fff;
+  /* color: #fff; */
+ 
+  
+}
+#call-to-action .cta-box{
+  text-align:right;
+}
+
+/* #call-to-action .cta-btn:hover {
+  background: #ffffff;
+  border: 3px solid #ffffff;
+  color: #00a3d1;
+} */
+=======
     #call-to-action .cta-btn-container {
         display: flex;
         align-items: center;
@@ -1067,6 +1138,7 @@ p.help-block li {
     border: 3px solid #ffffff;
     color: #00a3d1;
 }
+>>>>>>> 968b4452aa5d04f3f9fd0b94feea689ac3de6ba4
 
 
 /* Our Team Section
