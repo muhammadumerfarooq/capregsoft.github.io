@@ -1082,6 +1082,8 @@ p.help-block li {
 #team .member .pic img {
     max-width: 100%;
     padding: 20px 20px 0;
+    /* height: 250px;
+    width: 400px; */
 }
 
 #team .member .details {
