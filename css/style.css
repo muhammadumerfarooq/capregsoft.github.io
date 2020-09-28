@@ -583,7 +583,6 @@ Inner Banner
     text-align: center;
 }
 
-.svgImg {}
 
 .svgImg img {
     width: 120px;
@@ -1151,7 +1150,7 @@ p.help-block li {
     display: inline-block;
     margin-bottom: 0;
     color: #07cc91;
-    float: left;
+    /* float: left; */
 }
 
 #contact .contact-info address,
@@ -1201,9 +1200,9 @@ p.help-block li {
     }
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     #contact .contact-phone {}
-}
+} */
 
 #contact #google-map {
     height: 290px;
