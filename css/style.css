@@ -177,7 +177,7 @@ h6 {
 }
 
 .is-sticky header .nav-menu li.menu-active a {
-    color: #2196F3 !important;
+    color: #58cced !important;
 }
 
 @media (max-width: 768px) {
