@@ -1,14 +1,3 @@
-/* 
-Theme Name: ADMIRER Bootstrap Theme 
-Author: WebThemez.com
-License: https://webthemez.com/license 
-*/
-
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
-
 body {
     background: #fff;
     color: #444;
@@ -51,14 +40,14 @@ h6 {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #49a3ff;
+    background: #071e33;
     color: #fff;
     padding: 6px 12px 9px 12px;
     font-size: 16px;
-    border-radius: 2px;
+    border-radius: 100px;
     right: 15px;
     bottom: 15px;
-    transition: background 0.5s;
+    transition: 0.5s;
 }
 
 @media (max-width: 768px) {
@@ -68,13 +57,13 @@ h6 {
 }
 
 .back-to-top:focus {
-    background: #596bf3;
+    background: #071e33;
     color: #fff;
     outline: none;
 }
 
 .back-to-top:hover {
-    background: #278bf2;
+    background: #071e33;
     color: #fff;
 }
 
@@ -577,27 +566,6 @@ Inner Banner
     padding: 138px 0 64px;
     text-align: center;
     background: #278bf2;
-}
-
-#innerBanner h2 {
-    color: #fff;
-    text-align: center;
-    font-weight: normal;
-    font-size: 18px;
-    margin: 0px;
-}
-
-#innerBanner h2 span {
-    color: #00e5a1;
-    font-weight: bold;
-    font-size: 38px;
-    text-align: center;
-}
-
-.svgImg {}
-
-.svgImg img {
-    width: 120px;
 }
 
 #innerBanner h2 {
