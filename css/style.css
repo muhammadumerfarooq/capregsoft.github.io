@@ -583,7 +583,6 @@ Inner Banner
     text-align: center;
 }
 
-
 .svgImg img {
     width: 120px;
 }
@@ -1199,6 +1198,7 @@ p.help-block li {
         text-align: left;
     }
 }
+
 
 /* @media (min-width: 768px) {
     #contact .contact-phone {}
