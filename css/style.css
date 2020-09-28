@@ -460,7 +460,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-    color: #07cc91;
+    color: #333;
 }
 
 @media (max-width: 768px) {
@@ -482,7 +482,7 @@ h6 {
     width: 260px;
     overflow-y: auto;
     transition: 0.4s;
-    background: #596bf3;
+    background: #58cced;
 }
 
 #mobile-nav ul {
@@ -508,7 +508,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-    color: #07cc91;
+    color: #58cced;
 }
 
 #mobile-nav ul li li {
@@ -525,11 +525,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-    color: #596bf3;
+    color: #58cced;
 }
 
 #mobile-nav ul .menu-item-active {
-    color: #07cc91;
+    color:#58cced;
 }
 
 #mobile-body-overly {
@@ -566,7 +566,7 @@ Inner Banner
 #innerBanner {
     padding: 138px 0 64px;
     text-align: center;
-    background: #278bf2;
+    background: #58cced;
 }
 
 #innerBanner h2 {
@@ -1013,7 +1013,7 @@ p.help-block li {
 --------------------------------*/
 
 #call-to-action {
-    background: #0b79e7;
+    background: #58cced;
     background-size: cover;
     padding: 40px 0;
 }
