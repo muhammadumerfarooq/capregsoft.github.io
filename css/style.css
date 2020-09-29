@@ -185,9 +185,11 @@ h6 {
         padding: 20px 0;
         height: 74px;
     }
+
     #header #logo h1 {
         font-size: 34px;
     }
+
     #header #logo img {
         max-height: 40px;
     }
@@ -202,7 +204,6 @@ h6 {
     width: 100%;
     position: relative;
     background-color: #58cced;
-    /* background: url(../img/intro-carousel/banner-bg.png) center bottom no-repeat; */
     background-size: cover;
     padding: 200px 0 120px 0;
     top: 0px;
@@ -245,6 +246,14 @@ h6 {
         font-size: 22px;
         background: #ffffff00;
         padding: 15px;
+    }
+
+    #hero .hero-content h2 span {
+        color: #fff;
+        text-align: right;
+        font-size: px;
+        text-transform: uppercase;
+        font-weight: 700;
     }
 }
 
@@ -529,7 +538,7 @@ h6 {
 }
 
 #mobile-nav ul .menu-item-active {
-    color:#58cced;
+    color: #58cced;
 }
 
 #mobile-body-overly {
@@ -654,6 +663,7 @@ Inner Banner
     #about .about-img {
         height: auto;
     }
+
     #about .about-img img {
         margin-left: 0;
         padding-bottom: 30px;
@@ -773,11 +783,13 @@ Inner Banner
     #services .box .box {
         margin-bottom: 20px;
     }
+
     #services .box .icon {
         float: none;
         text-align: center;
         padding-bottom: 15px;
     }
+
     #services .box h4,
     #services .box p {
         margin-left: 0;
@@ -1194,6 +1206,7 @@ p.help-block li {
 }
 
 @media (min-width: 768px) {
+
     #contact .contact-address,
     #contact .contact-phone,
     #contact .contact-email {
@@ -1216,6 +1229,7 @@ p.help-block li {
     #contact #google-map {
         margin-top: 20px;
     }
+
     #hero .hero-content {
         left: 5%;
     }
