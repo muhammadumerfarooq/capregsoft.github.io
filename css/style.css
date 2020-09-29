@@ -185,9 +185,11 @@ h6 {
         padding: 20px 0;
         height: 74px;
     }
+
     #header #logo h1 {
         font-size: 34px;
     }
+
     #header #logo img {
         max-height: 40px;
     }
@@ -245,6 +247,7 @@ h6 {
         background: #ffffff00;
         padding: 15px;
     }
+
     #hero .hero-content h2 span {
         color: #fff;
         text-align: right;
@@ -646,6 +649,7 @@ Inner Banner
     #about .about-img {
         height: auto;
     }
+
     #about .about-img img {
         margin-left: 0;
         padding-bottom: 30px;
@@ -765,11 +769,13 @@ Inner Banner
     #services .box .box {
         margin-bottom: 20px;
     }
+
     #services .box .icon {
         float: none;
         text-align: center;
         padding-bottom: 15px;
     }
+
     #services .box h4,
     #services .box p {
         margin-left: 0;
@@ -1188,6 +1194,7 @@ p.help-block li {
 }
 
 @media (min-width: 768px) {
+
     #contact .contact-address,
     #contact .contact-phone,
     #contact .contact-email {
@@ -1210,6 +1217,7 @@ p.help-block li {
     #contact #google-map {
         margin-top: 20px;
     }
+
     #hero .hero-content {
         left: 5%;
     }
@@ -1347,13 +1355,12 @@ canvas {
     overflow: hidden;
     position: relative;
     float: left;
-    height: 65px;
+    height: 70px;
     padding-top: 10px;
     margin-top: -10px;
 }
 
 .wordC1 div li {
-    font-family: Serif;
     color: #fff;
     font-weight: 700;
     /* padding: 0 10px; */
@@ -1379,18 +1386,23 @@ canvas {
     0% {
         margin-top: -180px;
     }
+
     5% {
         margin-top: -90px;
     }
+
     50% {
         margin-top: -90px;
     }
+
     55% {
         margin-top: 0px;
     }
+
     99.99% {
         margin-top: 0px;
     }
+
     100% {
         margin-top: -270px;
     }
@@ -1400,24 +1412,31 @@ canvas {
     0% {
         margin-top: -270px;
     }
+
     5% {
         margin-top: -180px;
     }
+
     33% {
         margin-top: -180px;
     }
+
     38% {
         margin-top: -90px;
     }
+
     66% {
         margin-top: -90px;
     }
+
     71% {
         margin-top: 0px;
     }
+
     99.99% {
         margin-top: 0px;
     }
+
     100% {
         margin-top: -270px;
     }
@@ -1427,30 +1446,39 @@ canvas {
     0% {
         margin-top: -360px;
     }
+
     5% {
         margin-top: -270px;
     }
+
     25% {
         margin-top: -270px;
     }
+
     30% {
         margin-top: -180px;
     }
+
     50% {
         margin-top: -180px;
     }
+
     55% {
         margin-top: -90px;
     }
+
     75% {
         margin-top: -90px;
     }
+
     80% {
         margin-top: 0px;
     }
+
     99.99% {
         margin-top: 0px;
     }
+
     100% {
         margin-top: -270px;
     }
