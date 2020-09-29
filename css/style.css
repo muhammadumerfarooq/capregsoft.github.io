@@ -202,7 +202,6 @@ h6 {
     width: 100%;
     position: relative;
     background-color: #58cced;
-    /* background: url(../img/intro-carousel/banner-bg.png) center bottom no-repeat; */
     background-size: cover;
     padding: 200px 0 120px 0;
     top: 0px;
@@ -245,6 +244,13 @@ h6 {
         font-size: 22px;
         background: #ffffff00;
         padding: 15px;
+    }
+    #hero .hero-content h2 span {
+        color: #fff;
+        text-align: right;
+        font-size: px;
+        text-transform: uppercase;
+        font-weight: 700;
     }
 }
 
@@ -529,7 +535,7 @@ h6 {
 }
 
 #mobile-nav ul .menu-item-active {
-    color:#58cced;
+    color: #58cced;
 }
 
 #mobile-body-overly {
@@ -966,8 +972,8 @@ Inner Banner
     padding: 22px 15px;
     font-size: 15px;
     color: #686868;
-    text-align: justify;
-    height: 220px;
+    text-align: center;
+    height: 230px;
 }
 
 #testimonials .owl-nav,
