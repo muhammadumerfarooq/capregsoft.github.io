@@ -1,10 +1,5 @@
-<!-- =================================================
-Theme Name: BRANDO Bootstrap Theme 
-Author: WebThemez.com
-License: https://webthemez.com/license
-======================================================= -->
-
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -36,103 +31,59 @@ License: https://webthemez.com/license
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/social-icons.css">
 
-    <!--Bootstrap for social icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
-
 </head>
 
 <body id="body">
+    <div style="position:absolute;" id="particles-js"></div>
+
     <!--==========================
     Header
   ============================-->
     <header id="header">
-
         <div class="container">
             <div id="logo" class="pull-left">
                 <a href="index.html" id="body" class="scrollto"><span><div class="logo">
-                  <a href="#"><img src="img/WebLogo.png" alt="logo" style="height: 75px;">
-            </div>
-            
-            <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+          <a href="#"><img src="img/WebLogo.png" alt="logo" style="height: 75px;">
+    </div>
+        <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
             </div>
 
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
-                    <li class="menu-active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li class="menu-active"><a href="services.html">Services</a></li>
+                    <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
+                    <!-- <li class="menu-has-children"><a href="">Dropdown</a>
+                        <ul>
+                            <li><a href="#">Link Item 1</a></li>
+                            <li><a href="#">Link Item 3</a></li>
+                            <li><a href="#">Link Item 4</a></li>
+                            <li><a href="#">Link Item 5</a></li>
+                        </ul>
+                    </li> -->
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
             <!-- #nav-menu-container -->
         </div>
     </header>
     <!-- #header -->
+
     <!--==========================
-    Hero Section
+    Page Banner Section
   ============================-->
-    <section id="hero" class="clearfix">
-        <div class="container">
-
-            <div class="hero-banner">
-                <img src="img/8.svg" alt="" class="img-fluid">
+    <section id="innerBanner">
+        <div class="inner-content">
+            <h2><span>Services</span></h2>
+            <div>
             </div>
-            <div class="hero-content">
-                <h4 class="wordC1">
-
-                    <div>
-                        <ul class="flp4">
-                            <li>React</li>
-                            <li>NodeJS</li>
-                            <li>Angular</li>
-                            <li>Golang</li>
-                            <li>Python</li>
-                        </ul>
-                    </div>
-                </h4>
-                <div style="position:absolute;" id="particles-js"></div>
-            </div>
-
         </div>
     </section>
-    <!-- #Hero -->
+    <!-- #Page Banner -->
+
     <main id="main">
-
-        <!--==========================
-      About Section
-    ============================-->
-        <section id="about" class="wow fadeInUp">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Welcome</h2>
-                    <p> We started our journey in 2020 with full passion and dedication to acheive our goals as well as our ambitions to provide best software products and web services Internationally and all over Pakistan.</p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 about-img">
-                        <img src="img/1.svg" alt="">
-                    </div>
-
-                    <div class="col-lg-6 content">
-                        <p>We are not just a software house in Wah Cantt. We are a team of highly skilfull professional developers who have ability to solve the problems for clients.
-                        </p>
-                        <p>We ensure and satisfy our clients thorugh our consistent performance and our team is full of passionate and hardworking professionals</p>
-                        <p>The mission of our Company is to build a quality and comprehensive technology infrastructure, establish and maintain an effective operational environment, and deliver quality, prompt, cost effective and reliable technology services.</p>
-                        <ul>
-                            <h1>What We Do?</h1>
-
-                            <li><i class="icon ion-ios-checkmark-outline"></i> Web Development</li>
-                            <li><i class="icon ion-ios-checkmark-outline"></i> Desktop Applications</li>
-                            <li><i class="icon ion-ios-checkmark-outline"></i> Mobile Applications</li>
-                            <li><i class="icon ion-ios-checkmark-outline"></i> IT Solutions</li>
-
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <!-- #about -->
 
         <!--==========================
       Services Section
@@ -148,7 +99,7 @@ License: https://webthemez.com/license
 
                     <div class="col-lg-4">
                         <div class="box wow fadeInLeft">
-                            <div class="icon svgImg"><img src="img/web-development.svg" alt="" width="90px" height="90px"></div>
+                            <div class="icon svgImg"><img src="img/web-development.svg" alt="" height="90px" width="100px"></div>
                             <h4 class="title"><a href="">Web Development</a></h4>
                             <p class="description">Web Development is our strength.In case you’re looking for overhauling of your existing website and for creating a new website our team of skillfull web developers will assured you that we deliver a unique, powerful, dynamic
                                 and efficient looking website on time.</p>
@@ -157,7 +108,7 @@ License: https://webthemez.com/license
 
                     <div class="col-lg-4">
                         <div class="box wow fadeInRight">
-                            <div class="icon svgImg"><img src="img/app-development.svg" alt="" width="90px" height="90px"></div>
+                            <div class="icon svgImg"><img src="img/app-development.svg" alt="" height="90px" width="100px"></div>
                             <h4 class="title"><a href="">Mobile Applications</a></h4>
                             <p class="description">Mobile application development in Pakistan has grasping exceptional growth in the recent years. CapregSoft company develop mobile applications in WahCantt,Pakistan. We cooperate with our clients from the abstract stage to final
                                 development.
@@ -167,7 +118,7 @@ License: https://webthemez.com/license
 
                     <div class="col-lg-4">
                         <div class="box wow fadeInLeft" data-wow-delay="0.2s">
-                            <div class="icon svgImg"><img src="img/desktop-apps.svg" alt="" width="90px" height="90px"></div>
+                            <div class="icon svgImg"><img src="img/desktop-apps.svg" alt="" height="90px" width="100px"></div>
                             <h4 class="title"><a href="">Desktop Applications</a></h4>
                             <p class="description">Our developers have broad vision of present-day technologies as well as provides complex systems and solutions for problems.Our desktop application development services provides an efficient,user-friendly desktop applications
                                 that can run offline as well.</p>
@@ -179,6 +130,7 @@ License: https://webthemez.com/license
             </div>
         </section>
         <!-- #services -->
+
         <!--==========================
       Clients Section
     ============================-->
@@ -200,63 +152,42 @@ License: https://webthemez.com/license
                     <img src="https://raw.githubusercontent.com/abranhe/programming-languages-logos/master/src/csharp/csharp_128x128.png" alt="C Sharp">
                     <img src="https://raw.githubusercontent.com/abranhe/programming-languages-logos/master/src/java/java_128x128.png" alt="Java">
                     <img src="https://raw.githubusercontent.com/abranhe/programming-languages-logos/master/src/php/php_128x128.png" alt="PHP">
-                </div>
+               </div>
 
             </div>
         </section>
         <!-- #clients -->
+
         <!--==========================
-      Testimonials Section
+      About Section
     ============================-->
-        <section id="testimonials" class="wow fadeInUp">
+        <section id="about" class="wow fadeInUp">
             <div class="container">
-                <div class="section-header">
-                    <h2>Our Client Testimonials</h2>
-                    <p></p>
-                </div>
-                <div class="owl-carousel testimonials-carousel">
-
-                    <div class="testimonial-item">
-                        <p>Without a user friendly website,we weren’t able to post business friendly environment for our clients.Capreg Soft provided us with an intuitive website that enabled us to communicate a responsive integrations to our clients.
-
-                        </p>
-                        <h3>Dr Ali</h3>
-                        <h4>CEO</h4>
+                <div class="row">
+                    <div class="col-lg-6 about-img">
+                        <img src="img/web-app-img.svg" alt="">
                     </div>
 
-                    <div class="testimonial-item">
-                        <p>
-                            It’s never like the walk in a park to manage such complex tasks. In my life time experience I had been deeming for an automated system. Thanks to Capreg Soft that they have created such an amazing system which has helped me to manage all my tasks.
-
-                        </p>
-                        <h3>Prof Shahzaib</h3>
-                        <h4>HR Manager</h4>
+                    <div class="col-lg-6 about-img">
+                        <img src="img/mobileapp.svg" alt="">
                     </div>
 
-                    <div class="testimonial-item">
-                        <p>
-                            An elucidative website is all that can define what you are doing.The lining of the horizon forms the medieval coronation of the online appearance.Capreg Soft built an intuitive website to enhance our online appearance, which is nevertheless the most remarkable
-                            asset for us.
-                        </p>
-                        <h3>Lt(Retd) Haider</h3>
-                        <h4>Marketing Manager</h4>
-                    </div>
-
-                    <div class="testimonial-item">
-                        <p>
-                            Websites are designed by every other company. But the way Capreg Soft has provided us with a website, is really a doctrine of being professional. Not just their web development and designing abilities are excellent, even the way they treat their clients
-                            is remarkable. Such a hospitality is really scarce.
-
-                        </p>
-                        <h3>Dr Zain Masood</h3>
-                        <h4>Ass/Manager</h4>
-                    </div>
-
+                    <!-- <div class="col-lg-6 content">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
+                        <h3>Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus ovident</h3>
+                        <p>Consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat. Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. malis nulla duis fugiat</p>
+                        <ul>
+                            <li><i class="icon ion-ios-checkmark-outline"></i> Dolores quae porro consequatur aliquam, incidunt fugiat culpa.</li>
+                            <li><i class="icon ion-ios-checkmark-outline"></i> Dolores quae porro consequatur aliquam, culpa esse aute nulla.</li>
+                            <li><i class="icon ion-ios-checkmark-outline"></i> Dolores quae porro esse aute nulla. malis nulla duis fugiat</li>
+                        </ul>
+                    </div> -->
                 </div>
 
             </div>
         </section>
-        <!-- #testimonials -->
+        <!-- #about -->
+
 
         <!--==========================
       Call To Action Section
@@ -266,7 +197,7 @@ License: https://webthemez.com/license
                 <div class="row">
                     <div class="col-lg-9 text-center text-lg-left">
                         <h3 class="cta-title">Get Our Service</h3>
-                        <p class="cta-text">Ready to have a conversation? We are just a message away.</p>
+                        <p class="cta-text">Ready to have a Conversation? We are just a message away.</p>
                     </div>
 
                     <div class="col-lg-3 cta-btn-container text-center">
@@ -275,10 +206,9 @@ License: https://webthemez.com/license
 
                             <div class="social-buttons">
                                 <!-- facebook  Button -->
-                                <a href="http://www.facebook.com" target="_blank" class="social-button">
+                                <a href="http://www.facebook.com" target="blank" class="social-button">
                                     <div class="social-icon facebook">
                                         <i class="fab fa-facebook" aria-hidden="true"></i>
-                                        <!-- <span>Round & round we go</span> -->
                                     </div>
                                 </a>
 
@@ -286,14 +216,12 @@ License: https://webthemez.com/license
                                 <a href="https://www.linkedin.com/company/capregsoft/about/" class="social-button" target="_blank">
                                     <div class="social-icon linkedin">
                                         <i class="fab fa-linkedin" aria-hidden="true"></i>
-                                        <!-- <span>Not a rainbow!</span> -->
                                     </div>
                                 </a>
                                 <!-- Github Button -->
                                 <a href="https://github.com/CapregSoft" target="_blank" class="social-button">
                                     <div class="social-icon github">
                                         <i class="fab fa-github-alt" aria-hidden="true"></i>
-                                        <!-- <span>Go big!</span> -->
                                     </div>
                                 </a>
 
@@ -301,15 +229,14 @@ License: https://webthemez.com/license
                                 <a href="https://twitter.com/capregsoft" target="_blank" class="social-button">
                                     <div class="social-icon twitter">
                                         <i class="fab fa-twitter" aria-hidden="true"></i>
-                                        <!-- <span>Like a bird</span> -->
                                     </div>
                                 </a>
                                 <a href="https://www.instagram.com/capregsoft/" target="_blank" class="social-button">
                                     <div class="social-icon instagram">
                                         <i class="fab fa-instagram" aria-hidden="true"></i>
-                                        <!-- <span>Say cheese</span> -->
                                     </div>
                                 </a>
+
                                 <a href="https://www.reddit.com/r/capregsoft" target="_blank" class="social-button">
                                     <div class="social-icon reddit">
                                         <i class="fab fa-reddit" aria-hidden="true"></i>
@@ -317,13 +244,10 @@ License: https://webthemez.com/license
                                     </div>
                                 </a>
                             </div>
-                            <!-- </div> -->
-                            <!-- <a class="cta-btn align-middle" href="contact.html">Contact Us</a> -->
                         </div>
                     </div>
-                </div>
 
-            </div>
+                </div>
         </section>
         <!-- #call-to-action -->
 
@@ -338,9 +262,9 @@ License: https://webthemez.com/license
             <div class="copyright">
                 &copy; Copyright: <strong>All Rights Reserved By CapregSoft</strong>
             </div>
-
-
-
+            <!-- <div class="credits">
+                Template by <a href="https://webthemez.com/consulting/">WebThemez</a>
+            </div> -->
         </div>
     </footer>
     <!-- #footer -->
