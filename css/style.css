@@ -794,7 +794,7 @@ Inner Banner
 
 #clients img {
     max-width: 100%;
-    opacity: 0.6;
+    opacity: 0.4;
     transition: 0.3s;
     padding: 15px 0;
 }
