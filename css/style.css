@@ -1309,6 +1309,6 @@ p.help-block li {
 .owl-carousel .owl-item img {
     display: block;
     width: auto;
-    height: 70px;
+    height: auto;
     margin: 0 auto;
 }
