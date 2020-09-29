@@ -3,12 +3,12 @@
     overflow: hidden;
  
   } */
- 
-  .container-footer {
-    position:relative;
+
+.container-footer {
+    position: relative;
     /* left:0;
     bottom:0; */
-    background:white;
+    background: white;
     border: 3px solid #ffffff;
     border-radius: 7px;
     /* width:100%; */
@@ -16,37 +16,34 @@
     padding-top: 10px;
     padding-bottom: 10px;
     /* text-align: center; */
-    
     /* background-color: #00FF00; */
-  }
-  
-  
-  
-  .social-buttons {
+}
+
+.social-buttons {
     display: inline-flex;
     /* background: rgba(255, 255, 255, 0.5); */
     text-align: center;
     margin-right: 10px;
-  }
-  .social-buttons .social-button {
+}
+
+.social-buttons .social-button {
     display: inline-block;
     text-decoration: none;
     color: #333;
     margin: 5px;
     font-size: 12px;
-    
     /* width: 30px; */
-  }
-  .social-buttons .social-icon {
-    display: inline-block;
-    
-  }
+}
 
- 
-  .social-buttons .social-icon.facebook path {
+.social-buttons .social-icon {
+    display: inline-block;
+}
+
+.social-buttons .social-icon.facebook path {
     fill: #3b5998;
-  }
-  .social-buttons .social-icon.facebook svg:hover {
+}
+
+.social-buttons .social-icon.facebook svg:hover {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
@@ -57,119 +54,129 @@
     -ms-transition: 1s ease-in;
     -o-transition: 1s ease-in;
     transition: 1s ease-in;
-  }
-  .social-buttons .social-icon.instagram path {
+}
+
+.social-buttons .social-icon.instagram path {
     fill: #000;
-  }
-  .social-buttons .social-icon.instagram svg:hover {
+}
+
+.social-buttons .social-icon.instagram svg:hover {
     -webkit-transition: 1s ease-in;
     -moz-transition: 1s ease-in;
     -ms-transition: 1s ease-in;
     -o-transition: 1s ease-in;
     transition: 1s ease-in;
-  }
-  .social-buttons .social-icon.instagram svg:hover path {
+}
+
+.social-buttons .social-icon.instagram svg:hover path {
     stroke-dasharray: 0;
     stroke-dashoffset: 0;
     stroke: #fc853e;
     stroke-width: 10px;
     fill: #9633c2;
-  }
-  .social-buttons .social-icon.linkedin path {
+}
+
+.social-buttons .social-icon.linkedin path {
     fill: #0976b4;
-  }
-  .social-buttons .social-icon.linkedin svg:hover path {
+}
+
+.social-buttons .social-icon.linkedin svg:hover path {
     -webkit-animation: swapL 2.5s both;
     -moz-animation: swapL 2.5s both;
     -ms-animation: swapL 2.5s both;
     -o-animation: swapL 2.5s both;
     animation: swapL 2.5s both;
-  }
-  @-webkit-keyframes swapL {
+}
+
+@-webkit-keyframes swapL {
     0% {
-      fill: #0976b4;
+        fill: #0976b4;
     }
     20% {
-      fill: #0000cc;
+        fill: #0000cc;
     }
     40% {
-      fill: #0000b2;
+        fill: #0000b2;
     }
     60% {
-      fill: #00007f;
+        fill: #00007f;
     }
     80% {
-      fill: #00004c;
+        fill: #00004c;
     }
     100% {
-      fill: #000019;
+        fill: #000019;
     }
-  }
-  @-moz-keyframes swapL {
+}
+
+@-moz-keyframes swapL {
     0% {
-      fill: #0976b4;
+        fill: #0976b4;
     }
     20% {
-      fill: #0000cc;
+        fill: #0000cc;
     }
     40% {
-      fill: #0000b2;
+        fill: #0000b2;
     }
     60% {
-      fill: #00007f;
+        fill: #00007f;
     }
     80% {
-      fill: #00004c;
+        fill: #00004c;
     }
     100% {
-      fill: #000019;
+        fill: #000019;
     }
-  }
-  @-o-keyframes swapL {
+}
+
+@-o-keyframes swapL {
     0% {
-      fill: #0976b4;
+        fill: #0976b4;
     }
     20% {
-      fill: #0000cc;
+        fill: #0000cc;
     }
     40% {
-      fill: #0000b2;
+        fill: #0000b2;
     }
     60% {
-      fill: #00007f;
+        fill: #00007f;
     }
     80% {
-      fill: #00004c;
+        fill: #00004c;
     }
     100% {
-      fill: #000019;
+        fill: #000019;
     }
-  }
-  @keyframes swapL {
+}
+
+@keyframes swapL {
     0% {
-      fill: #0976b4;
+        fill: #0976b4;
     }
     20% {
-      fill: #0000cc;
+        fill: #0000cc;
     }
     40% {
-      fill: #0000b2;
+        fill: #0000b2;
     }
     60% {
-      fill: #00007f;
+        fill: #00007f;
     }
     80% {
-      fill: #00004c;
+        fill: #00004c;
     }
     100% {
-      fill: #000019;
+        fill: #000019;
     }
-  }
-  
-  .social-buttons .social-icon.twitter path {
+}
+
+.social-buttons .social-icon.twitter path {
     fill: #1da1f2;
-  }
-  .social-buttons .social-icon.twitter svg:hover path {
+}
+
+.social-buttons .social-icon.twitter svg:hover path {
     stroke-dasharray: 2200;
     stroke-dashoffset: -2200;
     stroke: #010327;
@@ -179,28 +186,33 @@
     -ms-animation: line 3s linear forwards;
     -o-animation: line 3s linear forwards;
     animation: line 3s linear forwards;
-  }
-  @-webkit-keyframes line {
+}
+
+@-webkit-keyframes line {
     to {
-      stroke-dashoffset: 0;
+        stroke-dashoffset: 0;
     }
-  }
-  @-moz-keyframes line {
+}
+
+@-moz-keyframes line {
     to {
-      stroke-dashoffset: 0;
+        stroke-dashoffset: 0;
     }
-  }
-  @-o-keyframes line {
+}
+
+@-o-keyframes line {
     to {
-      stroke-dashoffset: 0;
+        stroke-dashoffset: 0;
     }
-  }
-  @keyframes line {
+}
+
+@keyframes line {
     to {
-      stroke-dashoffset: 0;
+        stroke-dashoffset: 0;
     }
-  }
-  .social-buttons .social-icon.github svg:hover path  {
+}
+
+.social-buttons .social-icon.github svg:hover path {
     transform: scale(1.2);
     transform-origin: 10%;
     -webkit-transition: 0.2s ease-in-out;
@@ -208,16 +220,37 @@
     -ms-transition: 0.2s ease-in-out;
     -o-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
-  }
-  .social-buttons .social-icon.github path {
+}
+
+.social-buttons .social-icon.github path {
     fill: #24292e;
-  }
-  
-  .social-buttons .social-icon svg {
+}
+
+.social-buttons .social-icon svg {
     width: 28px;
     height: 28px;
-  }
-  .social-buttons .social-icon i {
+}
+
+.social-buttons .social-icon i {
     font-size: 30px;
-  }
-  
+}
+
+.social-buttons .social-icon.reddit path {
+    fill: #000000;
+}
+
+.social-buttons .social-icon.reddit svg:hover {
+    -webkit-transition: 1s ease-in;
+    -moz-transition: 1s ease-in;
+    -ms-transition: 1s ease-in;
+    -o-transition: 1s ease-in;
+    transition: 1s ease-in;
+}
+
+.social-buttons .social-icon.reddit svg:hover path {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+    stroke: #fff;
+    stroke-width: 10px;
+    fill: orangered;
+}
