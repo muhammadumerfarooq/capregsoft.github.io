@@ -1152,7 +1152,7 @@ p.help-block li {
     display: inline-block;
     margin-bottom: 0;
     color: #07cc91;
-    /* float: left; */
+    float: left;
 }
 
 #contact .contact-info address,
@@ -1199,14 +1199,17 @@ p.help-block li {
     #contact .contact-phone,
     #contact .contact-email {
         padding: 0;
+        align-content: center;
         text-align: left;
     }
 }
 
 
-/* @media (min-width: 768px) {
-    #contact .contact-phone {}
-} */
+@media (min-width: 768px) {
+    #contact .contact-phone {
+    
+    }
+}
 
 #contact #google-map {
     height: 290px;
@@ -1327,7 +1330,7 @@ body {
 
 canvas {
     display: block;
-    vertical-align: bottom;
+    /* vertical-align: bottom; */
 }
 
 
