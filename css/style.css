@@ -1152,7 +1152,7 @@ p.help-block li {
     display: inline-block;
     margin-bottom: 0;
     color: #07cc91;
-    /* float: left; */
+    float: left;
 }
 
 #contact .contact-info address,
