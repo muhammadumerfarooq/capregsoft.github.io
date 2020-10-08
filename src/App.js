@@ -6,6 +6,8 @@ import { Footer } from './pages/Footer';
 import { About } from './pages/About';
 import { Service } from './pages/Service';
 import { Client } from './pages/Client';
+import { Testomonials } from "./pages/Testomonials";
+import { SocialMedia } from "./pages/SocialMedia";
 
 
 function App() {
@@ -26,6 +28,12 @@ function App() {
 
       <div>
         <Client />
+      </div>
+      <div>
+        <Testomonials />
+      </div>
+      <div>
+        <SocialMedia />
       </div>
       <div>
         <Footer />
