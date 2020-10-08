@@ -11,7 +11,7 @@ export function Client() {
 
                 <div class="owl-carousel clients-carousel">
                     <img src="https://raw.githubusercontent.com/abranhe/programming-languages-logos/master/src/go-old/go-old_128x128.png" alt="GO" />
-                    <img src="img/react.png" alt="React" />
+                    <img src="/static/img/react.png" alt="React" />
                     <img src="img/angularjs.png" alt="Angular" />
                     <img src="img/rsz_nodejs.png" alt="Node" />
                     <img src="img/mongodb.png" alt="Node" />
