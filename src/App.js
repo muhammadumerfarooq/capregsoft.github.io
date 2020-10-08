@@ -4,6 +4,9 @@ import { Header } from './pages/Header';
 import { Hero } from './pages/Hero';
 import { Footer } from './pages/Footer';
 import { About } from './pages/About';
+import { Service } from './pages/Service';
+import { Client } from './pages/Client';
+
 
 function App() {
   return (
@@ -16,6 +19,13 @@ function App() {
       </div>
       <div>
         <About />
+      </div>
+      <div>
+        <Service />
+      </div>
+
+      <div>
+        <Client />
       </div>
       <div>
         <Footer />
