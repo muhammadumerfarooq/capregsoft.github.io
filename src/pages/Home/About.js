@@ -10,7 +10,7 @@ export function About() {
                 </div>
                 <div class="row">
                     <div class="col-lg-6 about-img">
-                        <img src="img/1.svg" alt="" />
+                        <img src="assets/img/1.svg" alt="" />
                     </div>
 
                     <div class="col-lg-6 content">
