@@ -15,7 +15,7 @@ export function Header() {
                             <ul class="nav-menu">
                                 <li class="menu-active"><a href="/">Home</a></li>
                                 <li><Link to="/about">About Us</Link></li>
-                                <li><a href="/#">Services</a></li>
+                                <li><Link to="/services">Services</Link></li>
                                 <li><a href="/#">Contact</a></li>
                                 <li><a href="/#">Career</a></li>
                             </ul>

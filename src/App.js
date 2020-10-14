@@ -10,6 +10,7 @@ import { Client } from './pages/Shared/Client';
 import { Testomonials } from "./pages/Shared/Testomonials";
 import { SocialMedia } from "./pages/Shared/SocialMedia";
 import { AboutUs } from "./pages/About/AboutUs";
+import { Services } from "./pages/Services/Services";
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
 
           <Switch>
             <Route exact path='/about' component={AboutUs} />
+            <Route exact path='/services' component={Services} />
           </Switch>
 
           <div>
