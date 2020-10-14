@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 import { WhatWeDo } from "./Componets/WhatWeDo";
 import { Client } from "../Shared/Client";
-import { Testomonials } from "../Shared/Testomonials";
+import { Testimonials } from "../Shared/Testimonials";
 import { Team } from "./Componets/Team";
 import { SocialMedia } from "../Shared/SocialMedia";
 
@@ -19,7 +19,7 @@ export function AboutUs() {
         <main id="main">
             <WhatWeDo />
             <Client />
-            <Testomonials />
+            <Testimonials />
             <Team />
             <SocialMedia />
         </main>

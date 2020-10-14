@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function Testomonials() {
+export function Testimonials() {
     return (
         <section id="testimonials" class="wow fadeInUp">
             <div class="container">

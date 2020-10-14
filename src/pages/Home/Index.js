@@ -3,7 +3,7 @@ import { About } from "./Components/About";
 import { Hero } from "./Components/Hero";
 import { Service } from "./Components/Service";
 import { Client } from "../Shared/Client";
-import { Testomonials } from "../Shared/Testomonials";
+import { Testimonials } from "../Shared/Testimonials";
 import { SocialMedia } from "../Shared/SocialMedia";
 
 export function Index() {
@@ -12,7 +12,7 @@ export function Index() {
         <About />
         <Service />
         <Client />
-        <Testomonials />
+        <Testimonials />
         <SocialMedia />
     </Fragment>
 }
