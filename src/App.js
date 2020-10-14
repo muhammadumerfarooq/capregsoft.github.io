@@ -1,4 +1,5 @@
-import React from "react";
+import React, { Fragment } from "react";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import "./App.css";
 import { Header } from './pages/Shared/Header';
 import { Hero } from './pages/Home/Hero';
@@ -8,41 +9,51 @@ import { Service } from './pages/Home/Service';
 import { Client } from './pages/Shared/Client';
 import { Testomonials } from "./pages/Shared/Testomonials";
 import { SocialMedia } from "./pages/Shared/SocialMedia";
-// import { Banner } from "./pages/About/Banner";
+import { AboutUs } from "./pages/About/AboutUs";
 
 
 function App() {
   return (
+
     <div>
-      <div>
-        <Header />
-      </div>
-      <div>
-        <Hero />
-      </div>
-      <div>
-        <About />
-      </div>
-      <div>
-        <Service />
-      </div>
+      <Router>
+        <Fragment>
+          <div>
+            <Header />
+          </div>
+          <div>
+            <Route exact path='/' component={Hero} />
+          </div>
+          <div>
+            <Route exact path='/' component={About} />
+          </div>
+          <div>
+            <Route exact path='/' component={Service} />
+          </div>
 
-      <div>
-        <Client />
-      </div>
-      <div>
-        <Testomonials />
-      </div>
-      <div>
-        <SocialMedia />
-      </div>
-      <div>
-        <Footer />
-      </div>
-      {/* <div><Banner /></div> */}
+          <div>
+            <Route exact path='/' component={Client} />
+          </div>
+          <div>
+            <Route exact path='/' component={Testomonials} />
+          </div>
+          <div>
+            <Route exact path='/' component={SocialMedia} />
+          </div>
 
+          <Switch>
+            <Route exact path='/about' component={AboutUs} />
+          </Switch>
+
+          <div>
+            <Footer />
+          </div>
+          {/* <div><Banner /></div> */}
+        </Fragment>
+      </Router>
 
     </div>
+
   );
 }
 
