@@ -11,6 +11,8 @@ import { Testomonials } from "./pages/Shared/Testomonials";
 import { SocialMedia } from "./pages/Shared/SocialMedia";
 import { AboutUs } from "./pages/About/AboutUs";
 import { Services } from "./pages/Services/Services";
+import { Contact } from "./pages/Contact/Contact";
+import { Career } from "./pages/Career/Career";
 
 
 function App() {
@@ -45,6 +47,8 @@ function App() {
           <Switch>
             <Route exact path='/about' component={AboutUs} />
             <Route exact path='/services' component={Services} />
+            <Route exact path='/contact' component={Contact} />
+            <Route exact path='/career' component={Career} />
           </Switch>
 
           <div>

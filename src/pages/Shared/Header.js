@@ -16,8 +16,8 @@ export function Header() {
                                 <li class="menu-active"><a href="/">Home</a></li>
                                 <li><Link to="/about">About Us</Link></li>
                                 <li><Link to="/services">Services</Link></li>
-                                <li><a href="/#">Contact</a></li>
-                                <li><a href="/#">Career</a></li>
+                                <li><Link to="/Contact">Contact</Link></li>
+                                <li><Link to="/Career">Career</Link></li>
                             </ul>
                         </nav>
                     </span>
