@@ -5,24 +5,25 @@ export function Header() {
     return (<header id="header">
         <div class="container">
             <div id="logo" class="pull-left">
-                <a href="/" id="body" class="scrollto">
+                <Link href="https://www.capregsoft.com/" id="body" class="scrollto">
                     <span>
                         <div class="logo">
-                            <a href="/"><img src="./assets/img/WebLogo.png" alt="logo" style={{ height: '75px' }} ></img></a>
+                            <Link href="https://www.capregsoft.com/"><img src="./assets/img/WebLogo.png" alt="logo"
+                                style={{ height: "75px" }} alt="No Image" /> </Link>
                         </div>
-
-                        <nav id="nav-menu-container">
-                            <ul class="nav-menu">
-                                <li class="menu-active"><a href="/">Home</a></li>
-                                <li><Link to="/about">About Us</Link></li>
-                                <li><Link to="/services">Services</Link></li>
-                                <li><Link to="/Contact">Contact</Link></li>
-                                <li><Link to="/Career">Career</Link></li>
-                            </ul>
-                        </nav>
                     </span>
-                </a>
+                </Link>
+
             </div>
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li><a href="https://www.capregsoft.com">Home</a></li>
+                    <li><Link to="/about">About Us</Link></li>
+                    <li><Link to="/services">Services</Link></li>
+                    <li><Link to="/Contact">Contact</Link></li>
+                    <li><Link to="/Career">Career</Link></li>
+                </ul>
+            </nav>
         </div>
     </header>);
 }
