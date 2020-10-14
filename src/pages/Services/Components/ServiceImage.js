@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
 
-export function ServiceIamge() {
+export function ServiceImage() {
     return <section id="about" class="wow fadeInUp">
         <div class="container">
             <div class="row">

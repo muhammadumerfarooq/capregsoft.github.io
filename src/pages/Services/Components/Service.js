@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-
+import { Link } from 'react-router-dom';
 
 export function Service() {
     return <section id="services">
@@ -17,7 +17,7 @@ export function Service() {
                     <div class="box wow fadeInLeft">
                         <div class="icon svgImg"><img src="./assets/img/web-development.svg" alt="No Image" height="90px"
                             width="100px" /></div>
-                        <h4 class="title"><a href="">Web Development</a></h4>
+                        <h4 class="title"><a href="#">Web Development</a></h4>
                         <p class="description">Web Development is our strength.In case you’re looking for
                         overhauling of your existing website and for creating a new website our team of
                         skillfull web developers will assured you that we deliver a unique, powerful, dynamic
@@ -29,7 +29,7 @@ export function Service() {
                     <div class="box wow fadeInRight">
                         <div class="icon svgImg"><img src="./assets/img/app-development.svg" alt="No Image" height="90px"
                             width="100px" /></div>
-                        <h4 class="title"><a href="">Mobile Applications</a></h4>
+                        <h4 class="title"><a href="#">Mobile Applications</a></h4>
                         <p class="description">Mobile application development in Pakistan has grasping exceptional
                         growth in the recent years. CapregSoft company develop mobile applications in
                         WahCantt,Pakistan. We cooperate with our clients from the abstract stage to final

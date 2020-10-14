@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { Service } from "./Components/Service";
 import { Client } from "../Shared/Client";
-import { ServiceIamge } from "./Components/ServiceImage";
+import { ServiceImage } from "./Components/ServiceImage";
 import { SocialMedia } from "../Shared/SocialMedia";
 
 export function Services() {
@@ -16,7 +16,7 @@ export function Services() {
         <main id="main">
             <Service />
             <Client />
-            <ServiceIamge />
+            <ServiceImage />
             <SocialMedia />
         </main>
     </Fragment>
