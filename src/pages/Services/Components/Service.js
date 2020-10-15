@@ -14,7 +14,7 @@ export function Service() {
                     <div className="box wow fadeInLeft">
                         <div className="icon svgImg"><img src="./assets/img/web-development.svg" alt="Web-Development" height="90px"
                             width="100px" /></div>
-                        <h4 claclassNamess="title"><a href="/#">Web Development</a></h4>
+                        <h4 className="title"><a href="/#">Web Development</a></h4>
                         <p className="description">Web Development is our strength.In case you’re looking for
                         overhauling of your existing website and for creating a new website our team of
                         skillfull web developers will assured you that we deliver a unique, powerful, dynamic

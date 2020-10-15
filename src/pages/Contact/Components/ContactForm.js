@@ -5,7 +5,7 @@ export function ContactForm() {
     return <div className="col-lg-7">
         <div className="container">
             <div className="form">
-                <form name="sentMessage" className="well" id="contactForm" novalidate>
+                <form name="sentMessage" className="well" id="contactForm" noValidate>
                     <div className="control-group">
                         <div className="form-group">
                             <input type="text" className="form-control" placeholder="Full Name" id="name"
@@ -24,8 +24,8 @@ export function ContactForm() {
                             <textarea rows="10" cols="100" className="form-control" placeholder="Message"
                                 id="message" required
                                 data-validation-required-message="Please enter your message"
-                                minlength="5" data-validation-minlength-message="Min 5 characters"
-                                maxlength="999" ></textarea>
+                                minLength="5" data-validation-minlength-message="Min 5 characters"
+                                maxLength="999" ></textarea>
                         </div>
                     </div>
                     <div id="success"> </div>
