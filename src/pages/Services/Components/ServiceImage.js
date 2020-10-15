@@ -1,21 +1,16 @@
-import React, { Fragment } from 'react';
-
+import React from 'react';
 
 export function ServiceImage() {
-    return <section id="about" class="wow fadeInUp">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 about-img">
-                    <img src="./assets/img/web-app-img.svg" alt="No Image" />
+    return <section id="about" className="wow fadeInUp">
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-6 about-img">
+                    <img src="./assets/img/web-app-img.svg" alt="Web App" />
                 </div>
-
-                <div class="col-lg-6 about-img">
-                    <img src="./assets/img/mobileapp.svg" alt="No Image" />
+                <div className="col-lg-6 about-img">
+                    <img src="./assets/img/mobileapp.svg" alt="Mobile App" />
                 </div>
-
-
             </div>
-
         </div>
     </section>
 }

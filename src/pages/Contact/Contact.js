@@ -7,7 +7,7 @@ import { SocialMedia } from "../Shared/SocialMedia";
 export function Contact() {
     return <Fragment>
         <section id="innerBanner">
-            <div class="inner-content">
+            <div className="inner-content">
                 <h2><span>Contact</span></h2>
                 <div>
                 </div>
@@ -15,13 +15,11 @@ export function Contact() {
         </section>
 
         <main id="main">
-            <section id="contact" class="wow fadeInUp">
-                <div class="container">
-                    <div class="section-header">
-
+            <section id="contact" className="wow fadeInUp">
+                <div className="container">
+                    <div className="section-header">
                     </div>
-
-                    <div class="row contact-info">
+                    <div className="row contact-info">
                         <Address />
                         <ContactForm />
                         <Map />

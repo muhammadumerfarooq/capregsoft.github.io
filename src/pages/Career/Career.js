@@ -9,7 +9,7 @@ import { SocialMedia } from "../Shared/SocialMedia";
 export function Career() {
     return <Fragment>
         <section id="innerBanner">
-            <div class="inner-content">
+            <div className="inner-content">
                 <h2><span>Career's</span></h2>
                 <div>
                 </div>
