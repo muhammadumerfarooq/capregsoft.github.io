@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export function Team() {
-    return <section id="team" class="wow fadeInUp">
+    return <section id="team" className="wow fadeInUp">
         <div className="container">
             <div className="section-header">
                 <h2>Our Team</h2>

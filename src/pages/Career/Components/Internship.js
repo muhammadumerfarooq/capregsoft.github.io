@@ -8,7 +8,7 @@ export function Internship() {
             </div>
         </div>
     </section>
-        <section id="about" class="wow fadeInUp">
+        <section id="about" className="wow fadeInUp">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 about-img">
